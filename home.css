@@ -1,0 +1,7 @@
+#board {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+}
