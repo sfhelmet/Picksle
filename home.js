@@ -5,6 +5,7 @@ function makeDraggable(evt) {
     svg.addEventListener('mouseup', endDrag);
     svg.addEventListener('mouseleave', endDrag);
     var selectedElement = false;
+    var audio = new Audio('block.mp3')
 
     function getMousePosition(evt) {
         var CTM = svg.getScreenCTM();
@@ -53,6 +54,7 @@ function makeDraggable(evt) {
             var newY = Math.round(parseFloat(coord.y - offset.y) / gridSpacing) * gridSpacing;
             transform.setTranslate(newX, newY)
             selectedElement = null;
+            audio.play();
         }
     }    
 } 
