@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <link rel="stylesheet" type="text/css" href="home.css">
-      <title>Picksle</title>
-      <script src="home.js"></script>
-      <script src="makeShapes.js"></script>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <title>Picksle</title>
+    <script src="home.js"></script>
+    <script src="makeShapes.js"></script>
   </head>
   <body>
     <div id="board">
-      <svg xmlns="http://www.w3.org/2000/svg"
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 800 400"
-        onload="makeDraggable(evt)">
-          <rect width="600" height="600" transform-origin="60% 40%" transform="scale(0.4)" fill="#fafafa" stroke="#ccc" stroke-width="0.5"/>
-          <script>
-            makeShapes();
-          </script>
+        onload="makeDraggable(evt)"
+      >
+        <rect
+          width="600"
+          height="600"
+          transform-origin="60% 40%"
+          transform="scale(0.4)"
+          fill="#fafafa"
+          stroke="#ccc"
+          stroke-width="0.5"
+        />
+        <script>
+          makeShapes();
+        </script>
       </svg>
     </div>
   </body>

@@ -1,11 +1,11 @@
 #board {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    border: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  border: 1px solid #ccc;
 }
 
 body {
-    margin: 0;
-    background-color: #f3f3f3;
+  margin: 0;
+  background-color: #f3f3f3;
 }
